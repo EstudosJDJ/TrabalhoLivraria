@@ -218,7 +218,7 @@ biblioteca-expo/
 | Cadastro de Livros     | Cribari             | 🔄 Em andamento |
 | Cadastro de Alunos     | Cribari             | 🔄 Em andamento |
 | Consultas              | Danilo              | 🔄 Em andamento |
-| Modelo Relacional      | Jonathan            | 🔄 Em andamento |
+| Modelo Relacional      | Jonathan            | ✅ Concluído |
 | Scripts SQL            | Jonathan            | 🔄 Em andamento |
 | Diagramas UML          | João Gabriel        | 🔄 Em andamento |
 | Empréstimos/Devoluções | -                   | ⏳ Pendente      |
