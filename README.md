@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Biblioteca Escolar
+# Sistema de Gerenciamento de Biblioteca Escolar 
 
 ## 📚 Descrição do Projeto
 Sistema simplificado de gerenciamento de biblioteca escolar desenvolvido utilizando conceitos de análise e desenvolvimento de sistemas. O projeto inclui uma aplicação web e mobile integrada para facilitar o controle de empréstimos e devoluções de livros.
