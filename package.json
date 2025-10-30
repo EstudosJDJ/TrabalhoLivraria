@@ -23,9 +23,14 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
-    "vite": "npm:rolldown-vite@7.1.14"
+    "vite": "npm:rolldown-vite@^7.1.14"
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"
-  }
+  },
+  "description": "Sistema simplificado de gerenciamento de biblioteca escolar desenvolvido utilizando conceitos de análise e desenvolvimento de sistemas. O projeto inclui uma aplicação web e mobile integrada para facilitar o controle de empréstimos e devoluções de livros.",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
