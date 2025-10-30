@@ -1,50 +1,266 @@
-# Welcome to your Expo app 👋
+# Sistema de Gerenciamento de Biblioteca Escolar 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## 📚 Descrição do Projeto
+Sistema simplificado de gerenciamento de biblioteca escolar desenvolvido utilizando conceitos de análise e desenvolvimento de sistemas. O projeto inclui uma aplicação web e mobile integrada para facilitar o controle de empréstimos e devoluções de livros.
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+## 🎯 Objetivo
+Desenvolver um sistema completo que permita o gerenciamento eficiente de uma biblioteca escolar, incluindo cadastro de livros, alunos, controle de empréstimos e geração de relatórios.
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+## 👥 Equipe de Desenvolvimento
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### **Danilo** - *Full Stack Developer & Project Lead*
+- **Front-end:** Desenvolvimento da aplicação principal
+- **Back-end:** Implementação das funções principais
+  - ToggleCategoria
+  - ToggleTema
+  - Card/Categoria
+  - Slides
+- **Banco de dados:** Consultas de livros disponíveis
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+### **João Paulo** - *UI/UX Designer*
+- **Front-end:** Design e interface do usuário
+- Responsável pela experiência visual e usabilidade do sistema
 
-When you're ready, run:
 
+### **Cribari** - *Database Administrator*
+- **Banco de dados:**
+  - Cadastro de alunos
+  - Cadastro de livros
+  - Estruturação e manutenção do banco de dados
+
+
+### **Jonathan** - *Database Architect*
+- **Banco de dados:**
+  - Modelo relacional
+  - Scripts SQL de criação e configuração
+
+
+### **João Gabriel** - *Systems Analyst*
+- **Outros:** Criação de diagramas UML e documentação técnica
+- **Readme.md**
+
+
+## 🛠️ Tecnologias Utilizadas
+
+
+### Front-end
+- HTML5, CSS3, JavaScript, Typescript
+- Framework: Expo
+- Design responsivo para web e mobile
+
+
+### Back-end
+- Linguagem: Javascript, Typescript
+- Arquitetura MVC
+
+
+### Banco de Dados
+- Sistema: SQLite/MySQL
+- Modelagem relacional
+- Scripts automatizados
+
+
+### Ferramentas de Desenvolvimento
+- **Versionamento:** Git/GitHub
+- **Diagramação:** Draw.io / Lucidchart
+- **IDE:** Visual Studio Code
+- **Testes:** Unitários e de integração
+
+
+## ⚙️ Funcionalidades
+
+
+### Em Desenvolvimento
+- 🔄 Registro de Empréstimos e Devoluções
+- 🔄 Consulta de Empréstimos por aluno
+- 🔄 Relatórios de dados
+- 🔄 Cadastro de Livros (Título, Autor, ISBN, Editora, Ano)
+- 🔄 Cadastro de Alunos (Nome, Matrícula, Turma)
+- 🔄 Toggle de Categorias e Temas
+- 🔄 Cards informativos
+- 🔄 Consulta de livros disponíveis
+
+
+### Planejadas
+- 📋 Geração de relatórios (livros mais emprestados)
+- 📱 Aplicação mobile integrada
+- 🔍 Sistema de busca avançada
+
+
+## 🚀 Como Executar
+
+
+### Instalação
 ```bash
-npm run reset-project
+# Clone o repositório
+git clone https://github.com/EstudosJDJ/TrabalhoLivraria/
+
+
+# Entre no diretório
+cd sistema-biblioteca
+
+
+# Instale as dependências
+ A decidir
+
+
+# Configure o banco de dados
+ A decidir
+
+
+# Execute o sistema
+ A decidir
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## 📁 Estrutura do Projeto
+```
+biblioteca-expo/
+├── .config/
+│   ├── eas-cli-nodejs/
+│   │   └── user-settings.json
+│   └── npm/
+│       └── node_global/
+│           ├── bin/
+│           └── lib/
+├── .expo/
+│   ├── types/
+│   │   └── router.d.ts
+│   ├── web/
+│   │   └── cache/
+│   │       └── production/
+│   │           └── images/
+│   │               └── favicon/
+│   │                   └── favicon-48.png
+│   ├── devices.json
+│   └── README.md
+├── .git/
+│   ├── branches/
+│   ├── hooks/
+│   │   ├── applypatch-msg.sample  
+│   │   ├── commit-msg.sample  
+│   │   ├── fsmonitor-watchman.sample  
+│   │   ├── post-update.sample  
+│   │   ├── pre-applypatch.sample  
+│   │   ├── pre-commit.sample  
+│   │   ├── pre-merge-commit.sample  
+│   │   ├── prepare-commit-msg.sample  
+│   │   ├── pre-push.sample  
+│   │   ├── pre-rebase.sample  
+│   │   ├── pre-receive.sample  
+│   │   ├── push-to-checkout.sample  
+│   │   ├── sendemail-validate.sample  
+│   │   └── update.sample
+│   ├── info/
+│   │   └── exclude
+│   ├── logs/
+│   │   ├── refs/
+│   │   └── HEAD
+│   ├── objects/
+│   │   └── ...
+│   ├── refs/
+│   │   ├── heads/
+│   │   │   └── main
+│   │   └── tags/
+│   ├── COMMIT_EDITMSG
+│   ├── config
+│   ├── description
+│   ├── HEAD
+│   └── index
+├── app/
+│   ├── (tabs)/
+│   │   ├── _layout.tsx
+│   │   ├── explote.tsx
+│   │   └── index.tsx
+│   ├── _layout.tsx
+│   └── +not-found.tsx
+├── assets/
+│   ├── fonts/
+│   │   └── SpaceMon-Regular.ttf
+│   └── images/
+│       ├── adaptive-icon.png  
+│       ├── icon.png  
+│       ├── partial-react-logo.png  
+│       ├── react-logo.png  
+│       ├── react-logo@2x.png  
+│       ├── react-logo@3x.png  
+│       └── splash-icon.png
+├── components/
+│   ├── ui/
+│   │   ├── IconSymbol.ios.tsx
+│   │   ├── IconSymbol.tsx
+│   │   ├── TabBarBackground.ios.tsx
+│   │   └── TabBarBackground.tsx
+│   ├── Card.jsx  
+│   ├── Categoria.jsx  
+│   ├── Collapsible.tsx  
+│   ├── ExternalLink.tsx  
+│   ├── HapticTab.tsx  
+│   ├── HelloWave.tsx  
+│   ├── ParallaxScrollView.tsx  
+│   ├── Slide.jsx  
+│   ├── ThemedText.tsx  
+│   └── ThemedView.tsx
+├── constants/
+│   ├── Card.ts
+│   ├── Categorias.ts
+│   ├── Colors.ts
+│   ├── Style.ts
+│   └── Slides.ts
+├── data/
+│   └── livros.json
+├── hooks/
+│   ├── useColorScheme.ts
+│   ├── useColorScheme.web.ts
+│   └── useThemeColor.ts
+├── scripts/
+│   └── reset-project.js
+├── .gitignore
+├── .eslintrc.config.js
+├── expo-env.d.ts
+├── generated-icon.png
+├── package.json
+├── package-lock.json
+├── README.md
+├── Replit.nix
+└── tsconfig.json
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📊 Status do Desenvolvimento
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+| Funcionalidade         | Responsável         | Status           |
+|   ---                  |      ---            |      --          |
+| Interface Principal    | João Paulo / Danilo | ✅ Concluído    |
+| Cadastro de Livros     | Cribari             | 🔄 Em andamento |
+| Cadastro de Alunos     | Cribari             | 🔄 Em andamento |
+| Consultas              | Danilo              | 🔄 Em andamento |
+| Modelo Relacional      | Jonathan            | 🔄 Em andamento |
+| Scripts SQL            | Jonathan            | 🔄 Em andamento |
+| Diagramas UML          | João Gabriel        | 🔄 Em andamento |
+| Empréstimos/Devoluções | -                   | ⏳ Pendente      |
+| Relatórios             | -                   | ⏳ Pendente      |
+| App Mobile             | Equipe              | ⏳ Planejado     |
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🧪 Testes
+- Testes unitários implementados
+- Testes de integração em desenvolvimento
+- Testes de interface planejados
+
+
+## 🤝 Contribuição
+Para contribuir com o projeto, siga as diretrizes:
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature
+3. Commit suas mudanças
+4. Push para a branch
+5. Abra um Pull Request
+
+
+---
+*Projeto desenvolvido para a disciplina de Análise e Desenvolvimento de Sistemas*
