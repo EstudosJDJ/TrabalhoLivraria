@@ -12,7 +12,7 @@ Desenvolver um sistema completo que permita o gerenciamento eficiente de uma bib
 ## 👥 Equipe de Desenvolvimento
 
 
-### **Danilo** - *Full Stack Developer & Project Lead*
+### **Danilo Leal Hoffoman** - *Full Stack Developer & Project Lead*
 - **Front-end:** Desenvolvimento da aplicação principal
 - **Back-end:** Implementação das funções principais
   - ToggleCategoria
@@ -22,25 +22,25 @@ Desenvolver um sistema completo que permita o gerenciamento eficiente de uma bib
 - **Banco de dados:** Consultas de livros disponíveis
 
 
-### **João Paulo** - *UI/UX Designer*
+### **João Paulo Caramuru** - *UI/UX Designer*
 - **Front-end:** Design e interface do usuário
 - Responsável pela experiência visual e usabilidade do sistema
 
 
-### **Cribari** - *Database Administrator*
+### **Matheus Cribari** - *Database Administrator*
 - **Banco de dados:**
   - Cadastro de alunos
   - Cadastro de livros
   - Estruturação e manutenção do banco de dados
 
 
-### **Jonathan** - *Database Architect*
+### **Jonathan Maia** - *Database Architect*
 - **Banco de dados:**
   - Modelo relacional
   - Scripts SQL de criação e configuração
 
 
-### **João Gabriel** - *Systems Analyst*
+### **João Gabriel Garcia** - *Systems Analyst*
 - **Outros:** Criação de diagramas UML e documentação técnica
 - **Readme.md**
 
@@ -100,14 +100,16 @@ Desenvolver um sistema completo que permita o gerenciamento eficiente de uma bib
 # Clone o repositório
 git clone https://github.com/EstudosJDJ/TrabalhoLivraria/
 
-
 # Entre no diretório
 cd sistema-biblioteca
 
-
 # Instale as dependências
- A decidir
+npm install
 
+# Garanta que possui o expo instalado globalmente
+npm install -g expo-cli
+# ou
+npx expo install
 
 # Configure o banco de dados
  A decidir
@@ -235,16 +237,14 @@ biblioteca-expo/
 
 | Funcionalidade         | Responsável         | Status           |
 |   ---                  |      ---            |      --          |
-| Interface Principal    | João Paulo / Danilo | ✅ Concluído    |
+| Interface Principal    | Danilo              | ✅ Concluído    |
 | Cadastro de Livros     | Cribari             | 🔄 Em andamento |
-| Cadastro de Alunos     | Cribari             | 🔄 Em andamento |
+| Cadastro de Alunos     | Cribari             | ✅ Concluído    |
 | Consultas              | Danilo              | 🔄 Em andamento |
 | Modelo Relacional      | Jonathan            | 🔄 Em andamento |
 | Scripts SQL            | Jonathan            | 🔄 Em andamento |
 | Diagramas UML          | João Gabriel        | 🔄 Em andamento |
-| Empréstimos/Devoluções | -                   | ⏳ Pendente      |
-| Relatórios             | -                   | ⏳ Pendente      |
-| App Mobile             | Equipe              | ⏳ Planejado     |
+| Empréstimos/Devoluções | -                   | ⏳ Pendente     |
 
 
 ## 🧪 Testes
@@ -263,4 +263,4 @@ Para contribuir com o projeto, siga as diretrizes:
 
 
 ---
-*Projeto desenvolvido para a disciplina de Análise e Desenvolvimento de Sistemas*
+*Projeto desenvolvido para o curso de Desenvolvimento de Sistemas da escola de ensino médio técnico Cedtec*
